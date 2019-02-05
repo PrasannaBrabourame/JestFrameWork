@@ -1,0 +1,30 @@
+{
+  "name": "jestframework",
+  "version": "1.0.0",
+  "description": "Unit Testing JS with JEST Framework",
+  "main": "index.js",
+  "engines": {
+    "node": "~8.11.4",
+    "npm": "~5.6.0"
+  },
+  "scripts": {
+    "hack": "jest --config ./jest.config.js",
+    "start": "jest --config ./jest.config.js \\\\d-[A-Za-z0-9_.-]*\\\\.validation\\\\.js",
+    "timer": "node timer.js",
+    "validate": "jest --config ./jest.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PrasannaBrabourame/JestFrameWork.git"
+  },
+  "author": "Prasanna Brabourame (prasanna18101994@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PrasannaBrabourame/JestFrameWork/issues"
+  },
+  "homepage": "https://github.com/PrasannaBrabourame/JestFrameWork#readme",
+  "dependencies": {
+    "jest": "^24.0.0"
+  },
+  "end": 1549089152000
+}
